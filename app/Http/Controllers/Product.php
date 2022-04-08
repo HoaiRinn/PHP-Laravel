@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Redirect;
 session_start();
 
-class CategoryProduct extends Controller
+class Product extends Controller
 {
-    public function addCategoryProduct(){
-        return view('admin.add_category_product');
+    public function addProduct(){
+        return view('admin.add_product');
     }
     public function allCategoryProduct(){
         $all_category_product = DB::table('tbl_category_product')->get();

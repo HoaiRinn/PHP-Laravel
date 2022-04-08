@@ -88,6 +88,14 @@ span.fa-thumb-styling.fa.fa-thumbs-up {
     color: green;
 }
 
+a.active.styling-edit {
+    font-size: 24px;
+}
+
+a.active.styling-delete {
+    font-size: 24px;
+}
+
 #sidebar ul li {
     position: relative;
 }
